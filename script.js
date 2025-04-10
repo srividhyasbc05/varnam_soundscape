@@ -11,6 +11,7 @@ const countryNames = {
 
   };
   let title;
+
 const button = document.getElementById("goBtn"); //gets button element using call
 button.addEventListener("click", () => { // this way the function only gets called once clicked
     title = document.getElementById("moviename").value; //parses the value in the input text
