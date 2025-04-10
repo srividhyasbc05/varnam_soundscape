@@ -1,0 +1,33 @@
+html{
+    background-color: indianred;
+}
+header{
+    width:80%;
+    margin: 0 auto;
+    padding: 1vh;
+    background-color:  #ff7f88;
+    border-radius: 16px;
+}
+h1,h4{
+    text-align:center;
+}
+.searchbar{
+    width:80%;
+    margin: 0 auto;
+    padding: 1vh;
+    background-color: #ff7f88;
+    border-radius: 16px;
+    
+}
+.displayinfo{
+    width:80%;
+    display:flex;
+    margin: 0 auto;
+    background-color: #ff7f88;
+    border-radius: 16px;
+    padding: 1vh;
+}
+section{
+    display:flex;
+    justify-content: space-around;
+}

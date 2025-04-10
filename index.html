@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MovieSleuth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+        <h1>Welcome to MovieSleuth!</h1>
+        <h4>find where you can stream your favorite moviews in whichever country you're in!</h4>
+    </header>
+    <br>
+    <main>
+        <section class="searchbar">
+            <input type="text" id= "moviename" placeholder="Type the movie here!">
+            <div>
+                <label for="countries">Country:</label>
+                <select name="countries" id="countries"></select>
+            </div>
+            <button type="button" id="goBtn">Go!</button>
+            
+           
+        </section>
+        <br>
+        <br>
+        <section class="displayinfo">
+            <div id="rent">
+                <h3>Rent on:</h3>
+            </div>
+            <div id="buy">
+                <h3>Buy on:</h3>
+            </div>
+        </section>
+    </main>
+    
+  </body>
+</html>
